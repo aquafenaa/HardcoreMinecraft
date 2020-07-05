@@ -1,0 +1,26 @@
+main: me.Baz.MinecraftHardcore.Main
+name: HardcoreMinecraft
+version: 1.4.4
+author: Baz
+api-version: 1.15
+
+commands:
+  dead:
+    description: Shows the dead players
+    useage: /dead
+  death:
+    description: Point your Death Compass to a dead player's grave
+    useage: /death <Player>
+  revive:
+    description: Revives a fallen player
+    useage: /revive <Player>
+  recipes:
+    description: Shows the custom recipes added by the hardcore plugin
+    useage: /recipes
+  recipe:
+    description: Shows a specified recipe added by the hardcore plugin
+    useage: /recipe <Recipe Name>
+  discord:
+    description: A command for adding a Discord server for a Minecraft server!
+    useage: /discord
+  
